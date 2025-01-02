@@ -28,7 +28,11 @@ function App() {
   const options = availableCurrencies;
 
   return (
-    <div className="w-full h-screen flex flex-wrap justify-center bg-gray-400 items-center bg-cover bg-no-repeat">
+    <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+    
+    style={{
+      backgroundImage: `url('https://media.istockphoto.com/id/913219882/photo/financial-graph-on-technology-abstract-background.jpg?s=1024x1024&w=is&k=20&c=h6c_LIS0b8FzoC66WfcXIP2CQp3YIS6mKoFTguMoJBg=')`,
+  }}>
       <div className="w-full">
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
